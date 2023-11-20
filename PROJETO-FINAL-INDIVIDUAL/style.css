@@ -22,9 +22,14 @@ section.conteudo {
 }
 
 section.sidebar section.menu ul li{
-    
+    ;
 }
 
 img {
     width: 200px;
+}
+
+.menu a {
+    text-decoration: none;
+    color: black;
 }
