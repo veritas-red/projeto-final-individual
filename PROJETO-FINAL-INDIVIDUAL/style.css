@@ -1,0 +1,30 @@
+section.sidebar{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    height: -webkit-fill-available;
+}
+
+section.sidebar section.menu{
+    width: 18%;
+    border-right: 1px solid #4CAF50;
+    padding: 12px;
+    margin: 12px;
+}
+
+section.sidebar section.menu ul{
+    list-style: none;
+    margin: 0px;
+}
+
+section.conteudo {
+    margin: 22px;
+}
+
+section.sidebar section.menu ul li{
+    
+}
+
+img {
+    width: 200px;
+}
