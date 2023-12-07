@@ -1,3 +1,18 @@
+p.w-50.p-10 {
+    text-align: justify;
+}
+
+.card.mx-auto.shadow-5-strong.d-flex.justify-content-center.w-50.p-5 {
+    margin-bottom: 12%;
+}
+
+.sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: #fefefe;
+}
+
 div.container strong {
     -webkit-animation: text-focus-in 1.1s ease-out both;
     animation: text-focus-in 1.1s ease-out both;

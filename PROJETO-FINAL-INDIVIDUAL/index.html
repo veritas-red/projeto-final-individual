@@ -14,26 +14,28 @@
 
 <body align="center" bg-light style="font-family: serif; font-size: larger;">
 
-    <section class="navbar navbar-light bg-light shadow-sm">
-        <div class="container">
-            <a href="index.html" class="navbar-brand d-flex align-items-center nav-link active">
-                <img src="reciclagem.png" width="70px">
-                <strong>Reciclagem Consciente</strong>
-            </a>
-            <a href="index.html" class="navbar-brand d-flex align-items-center nav-link link-dark">
-                Início
-            </a>
-            <a href="sobre.html" class="navbar-brand d-flex align-items-center nav-link link-dark">
-                Sobre
-            </a>
-            <a href="contato.html" class="navbar-brand d-flex align-items-center nav-link link-dark">
-                Redes Sociais
-            </a>
-            <a href="cadastar.html" class="navbar-brand d-flex align-items-center nav-link link-dark">
-                Cadastrar
-            </a>
-        </div>
-    </section>
+    <header id="meuheader">
+        <section class="navbar navbar-light bg-light shadow-sm">
+            <div class="container">
+                <a href="index.html" class="navbar-brand d-flex align-items-center nav-link active">
+                    <img src="reciclagem.png" width="70px">
+                    <strong>Reciclagem Consciente</strong>
+                </a>
+                <a href="index.html" class="navbar-brand d-flex align-items-center nav-link link-dark">
+                    Início
+                </a>
+                <a href="sobre.html" class="navbar-brand d-flex align-items-center nav-link link-dark">
+                    Sobre
+                </a>
+                <a href="contato.html" class="navbar-brand d-flex align-items-center nav-link link-dark">
+                    Redes Sociais
+                </a>
+                <a href="cadastar.html" class="navbar-brand d-flex align-items-center nav-link link-dark">
+                    Cadastrar
+                </a>
+            </div>
+        </section>
+    </header>
 
     <div class="d-flex justify-content-center">
         <p class="w-50 p-10" style="margin-top: 60px;">
@@ -163,22 +165,22 @@
             futuro mais equilibrado e saudável para as gerações presentes e futuras.</p>
     </div>
 
-    <!--<script>
+    <script>
         window.onscroll = function () { minhafuncao() };
-        var section = document.getElementById("minhasection");
-        var logo = document.querySelector("#minhasection .logo img");
-        var sticky = section.offsetTop;
+        var header = document.getElementById("meuheader");
+        var logo = document.querySelector("#meuheader .logo img");
+        var sticky = header.offsetTop;
         function minhafuncao() {
             if ((window.pageYOffset > sticky)) {
-                section.classList.add("sticky");
+                header.classList.add("sticky");
                 logo.classList.add("sticky");
             }
             else {
-                section.classList.remove("sticky");
+                header.classList.remove("sticky");
                 logo.classList.remove("sticky");
             }
         }
-    </script>-->
+    </script>
 
 </body>
 
