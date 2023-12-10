@@ -1,4 +1,14 @@
-.nav-pills .nav-link.active, .nav-pills .show>.nav-link {
-    color: var(--bs-nav-pills-link-active-color);
-    background-color: #338719b3;
+/* .sicky{
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: #fefefe;
 }
+
+#meuheader .logo img.sticky{
+    width: 60px;
+}
+
+.sticky + .content{
+    padding-top: 102px;
+} */
