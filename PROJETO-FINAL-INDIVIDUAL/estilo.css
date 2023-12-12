@@ -6,6 +6,11 @@ p.w-50.p-10 {
     margin-bottom: 12%;
 }
 
+p.w-50.p-10 {
+    margin-bottom: 60px;
+}
+
+
 .sticky {
     position: fixed;
     top: 0;
